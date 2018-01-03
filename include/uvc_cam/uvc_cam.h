@@ -64,7 +64,7 @@ static const int exp_vals[]=
 class Cam
 {
 public:
-  enum mode_t { MODE_RGB, MODE_MJPG, MODE_YUYV, MODE_BAYER } mode_;
+  enum mode_t { MODE_RGB, MODE_MJPG, MODE_YUYV, MODE_BAYER, MODE_Y16} mode_;
   Cam(const char *device, mode_t _mode = MODE_RGB,
       int _width = 640, int _height = 480, int _fps = 30);
   ~Cam();

@@ -56,7 +56,7 @@ Camera::Camera(ros::NodeHandle _comm_nh, ros::NodeHandle _param_nh) :
       exposure_pub = node.advertise<std_msgs::Float64>("exposure", 1, true);
 
       /* initialize the cameras */
-      cam = new uvc_cam::Cam(device.c_str(), uvc_cam::Cam::MODE_BAYER, width, height, fps);
+      cam = new uvc_cam::Cam(device.c_str(), uvc_cam::Cam::MODE_RGB, width, height, fps);
       //cam->set_motion_thresholds(100, -1);
       cam->set_control(0x009a0901, 1); // exposure, auto (0 = auto, 1 = manual)
       cam->set_control(0x00980900, 8); // brightness
