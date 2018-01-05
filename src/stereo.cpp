@@ -179,7 +179,7 @@ void StereoCamera::feedImages() {
         if (frame_right)
             cam_right->release(right_idx);
 
-        usleep(10000);
+        // usleep(10000);
     }
 
 }
