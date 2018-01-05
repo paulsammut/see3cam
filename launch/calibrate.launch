@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<launch>
+    <!-- 26 mm small frame target -->
+    <!-- <group ns="stereo_fwd"> -->
+        <node pkg="camera_calibration" type="cameracalibrator.py" name="camera_cal" output="screen" 
+            args="--size 8x6 --square 0.026 right:=right/image_raw left:=left/image_raw"/>
+    <!-- </group> -->
+</launch>
