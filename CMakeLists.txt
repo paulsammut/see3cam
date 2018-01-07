@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(uvc_camera)
+project(see3cam_10cug)
 
 find_package(catkin REQUIRED COMPONENTS camera_info_manager image_transport nodelet roscpp sensor_msgs)
 

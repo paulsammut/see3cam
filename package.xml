@@ -29,6 +29,6 @@
     <run_depend>sensor_msgs</run_depend>
 
     <export>
-        <nodelet plugin="${prefix}/nodelet_uvc_camera.xml"/>
+        <nodelet plugin="${prefix}/nodelet_see3cam_10cug.xml"/>
     </export>
 </package>
