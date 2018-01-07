@@ -1,17 +1,16 @@
 <?xml version="1.0"?>
 <package>
-    <name>uvc_camera</name>
+    <name>see3cam_10cug</name>
     <version>0.2.0</version>
     <description>
         A collection of node(let)s that stream images from USB cameras (UVC)
-        and provide CameraInfo messages to consumers. Includes a
-        two-camera node that provides rough synchronization for stereo vision.
-        Supports the See3CAM extensions for selecting the trigger mode.
-        Uses the base driver from Morgan Quigley's uvc_cam package.
+        and provide CameraInfo messages to consumers. Included a modified 
+        see3cam driver that works with a stereo setup of the 10cug_m cameras 
+        with their hardware triggers wired.
     </description>
 
-    <maintainer email="dgossow@gmail.com">David Gossow</maintainer>
-    <author email="dgossow@gmail.com">David Gossow</author>
+    <maintainer email="paul.c.sammut@gmail.com">Paul Sammut</maintainer>
+    <author email="paul.c.sammut@gmail.com">Paul Sammut</author>
 
     <license>GPLv2</license>
 
