@@ -59,8 +59,8 @@ Camera::Camera(ros::NodeHandle _comm_nh, ros::NodeHandle _param_nh) :
       cam = new uvc_cam::Cam(device.c_str(), uvc_cam::Cam::MODE_RGB, width, height, fps);
       //cam->set_motion_thresholds(100, -1);
       cam->set_control(0x009a0901, 1); // exposure, auto (0 = auto, 1 = manual)
-      cam->set_control(0x00980900, 8); // brightness
-      cam->set_control(0x9a0902, 78); // exposure time 15.6ms
+      cam->set_control(0x00980900, 6); // brightness
+      cam->set_control(0x9a0902, 100); // 78 is 15.6 ms, these are fucking hardcoded.
       std_msgs::Float64 exposure_msg;
       exposure_msg.data=7.8 * 0.5;
       exposure_pub.publish( exposure_msg );
