@@ -42,6 +42,11 @@ class StereoCamera {
      */
     ros::Subscriber exposure_left_sub;
 
+    /**
+     * @brief Right exposure subscriber
+     */
+    ros::Subscriber exposure_right_sub;
+
     boost::thread image_thread;
 
     /**

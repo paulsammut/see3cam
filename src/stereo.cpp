@@ -91,11 +91,12 @@ StereoCamera::StereoCamera(ros::NodeHandle comm_nh, ros::NodeHandle param_nh) :
                          width, height, fps);
     cam_right->set_motion_thresholds(100, -1);
 
+    // These are stolen from the camera.cpp file. 
     // cam->set_control(0x009a0901, 1); // exposure, auto (0 = auto, 1 = manual)
     // cam->set_control(0x00980900, 6); // brightness
     // cam->set_control(0x9a0902, 318); // 78 is 15.6 ms, these are fucking hardcoded.
-    exposure_left_sub = node.subscribe ("set_exposure", 1, &StereoCamera::callBackExposureLeft, this);
-				// brightness_sub = node.subscribe ("set_brightness", 1, &taraCamera::callBackBrightness, this);
+    exposure_left_sub = node.subscribe ("set_exposure_left", 1, &StereoCamera::callBackExposureLeft, this);
+    exposure_right_sub = node.subscribe ("set_exposure_right", 1, &StereoCamera::callBackExposureRight, this);
 
     /* and turn on the streamer */
     ok = true;
@@ -107,6 +108,12 @@ void StereoCamera::callBackExposureLeft (std_msgs::Float64 call_exposure_msg)
 {
     printf("[ 10cug ] Setting exposure ");
     cam_left->set_control(0x9a0902, call_exposure_msg.data); 
+}
+
+void StereoCamera::callBackExposureRight (std_msgs::Float64 call_exposure_msg)
+{
+    printf("[ 10cug ] Setting exposure ");
+    cam_right->set_control(0x9a0902, call_exposure_msg.data); 
 }
 
 void StereoCamera::sendInfo(ros::Time time) {
