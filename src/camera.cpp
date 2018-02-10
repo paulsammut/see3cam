@@ -60,6 +60,7 @@ Camera::Camera(ros::NodeHandle _comm_nh, ros::NodeHandle _param_nh) :
       //cam->set_motion_thresholds(100, -1);
       cam->set_control(0x009a0901, 1); // exposure, auto (0 = auto, 1 = manual)
       cam->set_control(0x00980900, 6); // brightness
+      printf("[ Paul ] Setting exposure \n");
       cam->set_control(0x9a0902, 318); // 78 is 15.6 ms, these are fucking hardcoded.
       std_msgs::Float64 exposure_msg;
       exposure_msg.data=7.8 * 0.5;

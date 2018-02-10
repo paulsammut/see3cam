@@ -91,6 +91,10 @@ StereoCamera::StereoCamera(ros::NodeHandle comm_nh, ros::NodeHandle param_nh) :
                          width, height, fps);
     cam_right->set_motion_thresholds(100, -1);
 
+    // cam->set_control(0x009a0901, 1); // exposure, auto (0 = auto, 1 = manual)
+    // cam->set_control(0x00980900, 6); // brightness
+    // cam->set_control(0x9a0902, 318); // 78 is 15.6 ms, these are fucking hardcoded.
+
     /* and turn on the streamer */
     ok = true;
     image_thread = boost::thread(boost::bind(&StereoCamera::feedImages, this));

@@ -45,7 +45,7 @@ Cam::Cam(const char *_device, mode_t _mode, int _width, int _height, int _fps)
 {
     //enumerate();
 
-    printf("opening %s\n", _device);
+    printf("[ 10cug ] Opening %s\n", _device);
 
     if ((device_file_h_ = open(_device, O_RDWR)) == -1)
     {
@@ -105,7 +105,7 @@ Cam::Cam(const char *_device, mode_t _mode, int _width, int _height, int _fps)
                         //        fival.discrete.numerator, fival.discrete.denominator);
                     }
                     else
-                        // printf("I only handle discrete frame intervals...\n");
+                        printf("I only handle discrete frame intervals...\n");
                 }
                 // printf("\n");
             }
@@ -124,7 +124,7 @@ Cam::Cam(const char *_device, mode_t _mode, int _width, int _height, int _fps)
             }
             else
             {
-                // printf("  fsize.type not supported: %d\n", fsize.type);
+                printf("  fsize.type not supported: %d\n", fsize.type);
             }
         }
     }
