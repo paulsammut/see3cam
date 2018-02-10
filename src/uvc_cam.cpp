@@ -69,12 +69,12 @@ Cam::Cam(const char *_device, mode_t _mode, int _width, int _height, int _fps)
     format_desc.type = V4L2_BUF_TYPE_VIDEO_CAPTURE;
     int ret;
 
-    printf("## FORMATS: ##\n");
+    // printf("## FORMATS: ##\n");
 
     while ((ret = ioctl(device_file_h_, VIDIOC_ENUM_FMT, &format_desc)) == 0)
     {
-        printf("pixfmt %d = '%4s' desc = '%s'\n",
-               format_desc.index, (char *)&format_desc.pixelformat, format_desc.description);
+        // printf("pixfmt %d = '%4s' desc = '%s'\n",
+        //        format_desc.index, (char *)&format_desc.pixelformat, format_desc.description);
 
         format_desc.index++;
 
@@ -101,30 +101,30 @@ Cam::Cam(const char *_device, mode_t _mode, int _width, int _height, int _fps)
                     fival.index++;
                     if (fival.type == V4L2_FRMIVAL_TYPE_DISCRETE)
                     {
-                        printf("%u/%u ",
-                               fival.discrete.numerator, fival.discrete.denominator);
+                        // printf("%u/%u ",
+                        //        fival.discrete.numerator, fival.discrete.denominator);
                     }
                     else
-                        printf("I only handle discrete frame intervals...\n");
+                        // printf("I only handle discrete frame intervals...\n");
                 }
-                printf("\n");
+                // printf("\n");
             }
             else if (fsize.type == V4L2_FRMSIZE_TYPE_CONTINUOUS)
             {
-                printf("  continuous: %ux%u to %ux%u\n",
-                       fsize.stepwise.min_width, fsize.stepwise.min_height,
-                       fsize.stepwise.max_width, fsize.stepwise.max_height);
+                // printf("  continuous: %ux%u to %ux%u\n",
+                //        fsize.stepwise.min_width, fsize.stepwise.min_height,
+                //        fsize.stepwise.max_width, fsize.stepwise.max_height);
             }
             else if (fsize.type == V4L2_FRMSIZE_TYPE_STEPWISE)
             {
-                printf("  stepwise: %ux%u to %ux%u step %ux%u\n",
-                       fsize.stepwise.min_width,  fsize.stepwise.min_height,
-                       fsize.stepwise.max_width,  fsize.stepwise.max_height,
-                       fsize.stepwise.step_width, fsize.stepwise.step_height);
+                // printf("  stepwise: %ux%u to %ux%u step %ux%u\n",
+                //        fsize.stepwise.min_width,  fsize.stepwise.min_height,
+                //        fsize.stepwise.max_width,  fsize.stepwise.max_height,
+                //        fsize.stepwise.step_width, fsize.stepwise.step_height);
             }
             else
             {
-                printf("  fsize.type not supported: %d\n", fsize.type);
+                // printf("  fsize.type not supported: %d\n", fsize.type);
             }
         }
     }
@@ -139,7 +139,7 @@ Cam::Cam(const char *_device, mode_t _mode, int _width, int _height, int _fps)
 
     memset (&queryctrl, 0, sizeof (queryctrl));
 
-    printf("## CONTROLS: ##\n");
+    // printf("## CONTROLS: ##\n");
 
     for (queryctrl.id = V4L2_CID_BASE;
             queryctrl.id < V4L2_CID_LASTP1;
@@ -148,7 +148,7 @@ Cam::Cam(const char *_device, mode_t _mode, int _width, int _height, int _fps)
             if (queryctrl.flags & V4L2_CTRL_FLAG_DISABLED)
                 continue;
 
-            printf ("Control '%s'\n", queryctrl.name);
+            // printf ("Control '%s'\n", queryctrl.name);
 
             //if (queryctrl.type == V4L2_CTRL_TYPE_MENU)
             //	enumerate_menu (device_file_h_,queryctrl,querymenu);
@@ -167,7 +167,7 @@ Cam::Cam(const char *_device, mode_t _mode, int _width, int _height, int _fps)
             if (queryctrl.flags & V4L2_CTRL_FLAG_DISABLED)
                 continue;
 
-            printf ("Control '%s'\n", queryctrl.name);
+            // printf ("Control '%s'\n", queryctrl.name);
 
             //if (queryctrl.type == V4L2_CTRL_TYPE_MENU)
             //enumerate_menu (device_file_h_,queryctrl,querymenu);
@@ -209,7 +209,7 @@ Cam::Cam(const char *_device, mode_t _mode, int _width, int _height, int _fps)
     //v4l2_queryctrl queryctrl;
     memset(&queryctrl, 0, sizeof(queryctrl));
 
-    printf("## CONTROLS: ##\n");
+    // printf("## CONTROLS: ##\n");
 
     uint32_t i = V4L2_CID_BASE;
     while (i != V4L2_CID_LAST_EXTCTR)
@@ -227,10 +227,10 @@ Cam::Cam(const char *_device, mode_t _mode, int _width, int _height, int _fps)
                 ctrl_type = "button";
             else if (queryctrl.type == V4L2_CTRL_TYPE_MENU)
                 ctrl_type = "menu";
-            printf("  %s (%s, %d, id = %x): %d to %d (%d)\n",
-                   ctrl_type,
-                   queryctrl.name, queryctrl.flags, queryctrl.id,
-                   queryctrl.minimum, queryctrl.maximum, queryctrl.step);
+            // printf("  %s (%s, %d, id = %x): %d to %d (%d)\n",
+            //        ctrl_type,
+            //        queryctrl.name, queryctrl.flags, queryctrl.id,
+            //        queryctrl.minimum, queryctrl.maximum, queryctrl.step);
             if (queryctrl.type == V4L2_CTRL_TYPE_MENU)
             {
                 v4l2_querymenu querymenu;
@@ -239,7 +239,7 @@ Cam::Cam(const char *_device, mode_t _mode, int _width, int _height, int _fps)
                 querymenu.index = 0;
                 while (ioctl(device_file_h_, VIDIOC_QUERYMENU, &querymenu) == 0)
                 {
-                    printf("    %d: %s\n", querymenu.index, querymenu.name);
+                    // printf("    %d: %s\n", querymenu.index, querymenu.name);
                     querymenu.index++;
                 }
             }
