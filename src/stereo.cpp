@@ -98,6 +98,9 @@ StereoCamera::StereoCamera(ros::NodeHandle comm_nh, ros::NodeHandle param_nh) :
     exposure_left_sub = node.subscribe ("set_exposure_left", 1, &StereoCamera::callBackExposureLeft, this);
     exposure_right_sub = node.subscribe ("set_exposure_right", 1, &StereoCamera::callBackExposureRight, this);
 
+    brightness_left_sub = node.subscribe ("set_brightness_left", 1, &StereoCamera::callBackBrightnessLeft, this);
+    brightness_right_sub = node.subscribe ("set_brightness_right", 1, &StereoCamera::callBackBrightnessRight, this);
+
     /* and turn on the streamer */
     ok = true;
     image_thread = boost::thread(boost::bind(&StereoCamera::feedImages, this));
@@ -106,14 +109,26 @@ StereoCamera::StereoCamera(ros::NodeHandle comm_nh, ros::NodeHandle param_nh) :
 	
 void StereoCamera::callBackExposureLeft (std_msgs::Float64 call_exposure_msg)
 {
-    printf("[ 10cug ] Setting exposure ");
+    printf("[ 10cug ] Setting left camera exposure ");
     cam_left->set_control(0x9a0902, call_exposure_msg.data); 
 }
 
 void StereoCamera::callBackExposureRight (std_msgs::Float64 call_exposure_msg)
 {
-    printf("[ 10cug ] Setting exposure ");
+    printf("[ 10cug ] Setting right camera exposure ");
     cam_right->set_control(0x9a0902, call_exposure_msg.data); 
+}
+
+void StereoCamera::callBackBrightnessLeft (std_msgs::Float64 call_brightness_msg)
+{
+    printf("[ 10cug ] Setting left camera brightness ");
+    cam_left->set_control(0x00980900, call_brightness_msg.data); 
+}
+
+void StereoCamera::callBackBrightnessRight (std_msgs::Float64 call_brightness_msg)
+{
+    printf("[ 10cug ] Setting right camera brightness ");
+    cam_right->set_control(0x00980900, call_brightness_msg.data); 
 }
 
 void StereoCamera::sendInfo(ros::Time time) {

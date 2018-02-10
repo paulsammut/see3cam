@@ -1,0 +1,55 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Camera	camera.h	/^class Camera {$/;"	c	namespace:uvc_camera
+StereoCamera	stereocamera.h	/^class StereoCamera {$/;"	c	namespace:uvc_camera
+cam	camera.h	/^    uvc_cam::Cam *cam;$/;"	m	class:uvc_camera::Camera
+cam_left	stereocamera.h	/^    uvc_cam::Cam *cam_left, *cam_right;$/;"	m	class:uvc_camera::StereoCamera
+cam_right	stereocamera.h	/^    uvc_cam::Cam *cam_left, *cam_right;$/;"	m	class:uvc_camera::StereoCamera
+device	camera.h	/^    std::string device, frame;$/;"	m	class:uvc_camera::Camera
+exposure_left_sub	stereocamera.h	/^    ros::Subscriber exposure_left_sub;$/;"	m	class:uvc_camera::StereoCamera
+exposure_pub	camera.h	/^    ros::Publisher exposure_pub;$/;"	m	class:uvc_camera::Camera
+fps	camera.h	/^    int width, height, fps, skip_frames, frames_to_skip;$/;"	m	class:uvc_camera::Camera
+fps	stereocamera.h	/^    int width, height, fps, skip_frames, frames_to_skip;$/;"	m	class:uvc_camera::StereoCamera
+frame	camera.h	/^    std::string device, frame;$/;"	m	class:uvc_camera::Camera
+frame	stereocamera.h	/^    std::string left_device, right_device, frame;$/;"	m	class:uvc_camera::StereoCamera
+frames_to_skip	camera.h	/^    int width, height, fps, skip_frames, frames_to_skip;$/;"	m	class:uvc_camera::Camera
+frames_to_skip	stereocamera.h	/^    int width, height, fps, skip_frames, frames_to_skip;$/;"	m	class:uvc_camera::StereoCamera
+height	camera.h	/^    int width, height, fps, skip_frames, frames_to_skip;$/;"	m	class:uvc_camera::Camera
+height	stereocamera.h	/^    int width, height, fps, skip_frames, frames_to_skip;$/;"	m	class:uvc_camera::StereoCamera
+image_thread	camera.h	/^    boost::thread image_thread;$/;"	m	class:uvc_camera::Camera
+image_thread	stereocamera.h	/^    boost::thread image_thread;$/;"	m	class:uvc_camera::StereoCamera
+info_mgr	camera.h	/^    camera_info_manager::CameraInfoManager info_mgr;$/;"	m	class:uvc_camera::Camera
+info_pub	camera.h	/^    ros::Publisher info_pub;$/;"	m	class:uvc_camera::Camera
+it	camera.h	/^    image_transport::ImageTransport it;$/;"	m	class:uvc_camera::Camera
+it	stereocamera.h	/^    image_transport::ImageTransport it;$/;"	m	class:uvc_camera::StereoCamera
+last_time	camera.h	/^    ros::Time last_time;$/;"	m	class:uvc_camera::Camera
+left_device	stereocamera.h	/^    std::string left_device, right_device, frame;$/;"	m	class:uvc_camera::StereoCamera
+left_info_mgr	stereocamera.h	/^    camera_info_manager::CameraInfoManager left_info_mgr, right_info_mgr;$/;"	m	class:uvc_camera::StereoCamera
+left_info_pub	stereocamera.h	/^    ros::Publisher left_info_pub, right_info_pub;$/;"	m	class:uvc_camera::StereoCamera
+left_pub	stereocamera.h	/^    image_transport::Publisher left_pub, right_pub;$/;"	m	class:uvc_camera::StereoCamera
+node	camera.h	/^    ros::NodeHandle node, pnode;$/;"	m	class:uvc_camera::Camera
+node	stereocamera.h	/^    ros::NodeHandle node, pnode;$/;"	m	class:uvc_camera::StereoCamera
+ok	camera.h	/^    bool ok;$/;"	m	class:uvc_camera::Camera
+ok	stereocamera.h	/^    bool ok;$/;"	m	class:uvc_camera::StereoCamera
+pnode	camera.h	/^    ros::NodeHandle node, pnode;$/;"	m	class:uvc_camera::Camera
+pnode	stereocamera.h	/^    ros::NodeHandle node, pnode;$/;"	m	class:uvc_camera::StereoCamera
+pub	camera.h	/^    image_transport::Publisher pub;$/;"	m	class:uvc_camera::Camera
+right_device	stereocamera.h	/^    std::string left_device, right_device, frame;$/;"	m	class:uvc_camera::StereoCamera
+right_info_mgr	stereocamera.h	/^    camera_info_manager::CameraInfoManager left_info_mgr, right_info_mgr;$/;"	m	class:uvc_camera::StereoCamera
+right_info_pub	stereocamera.h	/^    ros::Publisher left_info_pub, right_info_pub;$/;"	m	class:uvc_camera::StereoCamera
+right_pub	stereocamera.h	/^    image_transport::Publisher left_pub, right_pub;$/;"	m	class:uvc_camera::StereoCamera
+rotate	camera.h	/^    bool rotate;$/;"	m	class:uvc_camera::Camera
+rotate_left	stereocamera.h	/^    bool rotate_left, rotate_right;$/;"	m	class:uvc_camera::StereoCamera
+rotate_right	stereocamera.h	/^    bool rotate_left, rotate_right;$/;"	m	class:uvc_camera::StereoCamera
+skip_frames	camera.h	/^    int width, height, fps, skip_frames, frames_to_skip;$/;"	m	class:uvc_camera::Camera
+skip_frames	stereocamera.h	/^    int width, height, fps, skip_frames, frames_to_skip;$/;"	m	class:uvc_camera::StereoCamera
+time_mutex_	camera.h	/^    boost::mutex time_mutex_;$/;"	m	class:uvc_camera::Camera
+time_sub	camera.h	/^    ros::Subscriber time_sub;$/;"	m	class:uvc_camera::Camera
+uvc_camera	camera.h	/^namespace uvc_camera {$/;"	n
+uvc_camera	stereocamera.h	/^namespace uvc_camera {$/;"	n
+width	camera.h	/^    int width, height, fps, skip_frames, frames_to_skip;$/;"	m	class:uvc_camera::Camera
+width	stereocamera.h	/^    int width, height, fps, skip_frames, frames_to_skip;$/;"	m	class:uvc_camera::StereoCamera

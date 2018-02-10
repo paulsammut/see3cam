@@ -1,0 +1,273 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+APPLICATION_READY	src/xunit/xunit_lib.h	11;"	d
+BOOL	src/xunit/xunit_tab_lib.h	/^typedef bool BOOL;$/;"	t
+BUFFER_LENGTH	src/xunit/xunit_lib.h	49;"	d
+CAMERA_CONTROL	src/xunit/xunit_lib.h	16;"	d
+CONTINOUS_FOCUS	src/xunit/xunit_lib.h	25;"	d
+CSU32	include/uvc_cam/uvc_cam.h	62;"	d
+Cam	include/uvc_cam/uvc_cam.h	/^class Cam$/;"	c	namespace:uvc_cam
+Cam	src/uvc_cam.cpp	/^Cam::Cam(const char *_device, mode_t _mode, int _width, int _height, int _fps)$/;"	f	class:Cam
+Camera	include/uvc_camera/camera.h	/^class Camera {$/;"	c	namespace:uvc_camera
+Camera	src/camera.cpp	/^Camera::Camera(ros::NodeHandle _comm_nh, ros::NodeHandle _param_nh) :$/;"	f	class:uvc_camera::Camera
+CameraNodelet	src/nodelets.cpp	/^    CameraNodelet() {}$/;"	f	class:uvc_camera::CameraNodelet
+CameraNodelet	src/nodelets.cpp	/^class CameraNodelet : public nodelet::Nodelet {$/;"	c	namespace:uvc_camera	file:
+DEVICE_NAME_MAX	src/xunit/xunit_lib.h	55;"	d
+DirectoryOfThisScript	.ycm_extra_conf.py	/^def DirectoryOfThisScript():$/;"	f
+ENABLEMASTERMODE	src/xunit/xunit_lib.h	13;"	d
+ENABLETRIGGERMODE	src/xunit/xunit_lib.h	14;"	d
+EnableMasterMode	src/xunit/xunit_lib_cug.c	/^BOOL EnableMasterMode()$/;"	f
+EnableTriggerMode	src/xunit/xunit_lib_cug.c	/^BOOL EnableTriggerMode()$/;"	f
+FAILURE	src/xunit/xunit_lib.h	53;"	d
+FALSE	src/xunit/xunit_lib.h	7;"	d
+FLASH_OFF	src/xunit/xunit_lib.h	33;"	d
+FLASH_STROBE	src/xunit/xunit_lib.h	35;"	d
+FLASH_TORCH	src/xunit/xunit_lib.h	34;"	d
+FOCUS_BUSY	src/xunit/xunit_lib.h	31;"	d
+FOCUS_FAILED	src/xunit/xunit_lib.h	29;"	d
+FOCUS_SUCCEEDED	src/xunit/xunit_lib.h	30;"	d
+FlagsForFile	.ycm_extra_conf.py	/^def FlagsForFile(filename):$/;"	f
+GET_FLASH_MODE	src/xunit/xunit_lib.h	22;"	d
+GET_FOCUS_MODE	src/xunit/xunit_lib.h	17;"	d
+GET_FOCUS_POSITION	src/xunit/xunit_lib.h	19;"	d
+GET_FOCUS_STATUS	src/xunit/xunit_lib.h	21;"	d
+GPIO_GET_LEVEL	src/xunit/xunit_lib.h	41;"	d
+GPIO_HIGH	src/xunit/xunit_lib.h	45;"	d
+GPIO_INPUT_DETECT	src/xunit/xunit_lib.h	43;"	d
+GPIO_LEVEL_FAIL	src/xunit/xunit_lib.h	46;"	d
+GPIO_LEVEL_SUCCESS	src/xunit/xunit_lib.h	47;"	d
+GPIO_LOW	src/xunit/xunit_lib.h	44;"	d
+GPIO_OPERATION	src/xunit/xunit_lib.h	40;"	d
+GPIO_PIN_IN1	src/xunit/xunit_tab_lib.h	18;"	d
+GPIO_PIN_IN2	src/xunit/xunit_tab_lib.h	19;"	d
+GPIO_PIN_OUT1	src/xunit/xunit_tab_lib.h	16;"	d
+GPIO_PIN_OUT2	src/xunit/xunit_tab_lib.h	17;"	d
+GPIO_SET_LEVEL	src/xunit/xunit_lib.h	42;"	d
+GetCompilationDatabaseFolder	.ycm_extra_conf.py	/^def GetCompilationDatabaseFolder(filename):$/;"	f
+GetCompilationInfoForFile	.ycm_extra_conf.py	/^def GetCompilationInfoForFile(filename, database):$/;"	f
+GetCompilationInfoForHeaderRos	.ycm_extra_conf.py	/^def GetCompilationInfoForHeaderRos(headerfile, database):$/;"	f
+GetCompilationInfoForHeaderSameDir	.ycm_extra_conf.py	/^def GetCompilationInfoForHeaderSameDir(headerfile, database):$/;"	f
+GetDatabase	.ycm_extra_conf.py	/^def GetDatabase(compilation_database_folder):$/;"	f
+GetRosIncludeFlags	.ycm_extra_conf.py	/^def GetRosIncludeFlags():$/;"	f
+GetRosIncludePaths	.ycm_extra_conf.py	/^def GetRosIncludePaths():$/;"	f
+GetTickCount	src/xunit/xunit_lib.c	/^unsigned int GetTickCount()$/;"	f
+HID_LIST_MAX	src/xunit/xunit_lib.h	58;"	d
+InitExtensionUnit	src/xunit/xunit_lib.c	/^BOOL InitExtensionUnit(const char* bus_info)$/;"	f
+IsHeaderFile	.ycm_extra_conf.py	/^def IsHeaderFile(filename):$/;"	f
+MANUAL_FOCUS	src/xunit/xunit_lib.h	26;"	d
+MANUFACTURER_NAME_MAX	src/xunit/xunit_lib.h	56;"	d
+MODE_BAYER	include/uvc_cam/uvc_cam.h	/^  enum mode_t { MODE_RGB, MODE_MJPG, MODE_YUYV, MODE_BAYER, MODE_Y16} mode_;$/;"	e	enum:uvc_cam::Cam::mode_t
+MODE_MJPG	include/uvc_cam/uvc_cam.h	/^  enum mode_t { MODE_RGB, MODE_MJPG, MODE_YUYV, MODE_BAYER, MODE_Y16} mode_;$/;"	e	enum:uvc_cam::Cam::mode_t
+MODE_RGB	include/uvc_cam/uvc_cam.h	/^  enum mode_t { MODE_RGB, MODE_MJPG, MODE_YUYV, MODE_BAYER, MODE_Y16} mode_;$/;"	e	enum:uvc_cam::Cam::mode_t
+MODE_Y16	include/uvc_cam/uvc_cam.h	/^  enum mode_t { MODE_RGB, MODE_MJPG, MODE_YUYV, MODE_BAYER, MODE_Y16} mode_;$/;"	e	enum:uvc_cam::Cam::mode_t
+MODE_YUYV	include/uvc_cam/uvc_cam.h	/^  enum mode_t { MODE_RGB, MODE_MJPG, MODE_YUYV, MODE_BAYER, MODE_Y16} mode_;$/;"	e	enum:uvc_cam::Cam::mode_t
+MakeRelativePathsInFlagsAbsolute	.ycm_extra_conf.py	/^def MakeRelativePathsInFlagsAbsolute(flags, working_directory):$/;"	f
+NUM_BUFFERS	include/uvc_cam/uvc_cam.h	/^  static const unsigned NUM_BUFFERS = 2;$/;"	m	class:uvc_cam::Cam
+PRODUCT_NAME_MAX	src/xunit/xunit_lib.h	57;"	d
+READFIRMWAREVERSION	src/xunit/xunit_lib.h	12;"	d
+ReadFirmwareVersion	src/xunit/xunit_lib.c	/^BOOL ReadFirmwareVersion (UINT8 *pMajorVersion, UINT8 *pMinorVersion1, UINT16 *pMinorVersion2, UINT16 *pMinorVersion3)$/;"	f
+SEE3CAM_10CUG	src/xunit/xunit_tab_lib.h	/^	SEE3CAM_10CUG = 1,$/;"	e	enum:see3cam_device_index
+SEE3CAM_10CUG_C_PID	src/xunit/xunit_tab_lib.h	11;"	d
+SEE3CAM_10CUG_M_PID	src/xunit/xunit_tab_lib.h	10;"	d
+SEE3CAM_80USB	src/xunit/xunit_tab_lib.h	/^	SEE3CAM_80USB,$/;"	e	enum:see3cam_device_index
+SEE3CAM_80USB_PID	src/xunit/xunit_tab_lib.h	12;"	d
+SEE3CAM_USB_VID	src/xunit/xunit_tab_lib.h	9;"	d
+SET_FLASH_FAIL	src/xunit/xunit_lib.h	37;"	d
+SET_FLASH_MODE	src/xunit/xunit_lib.h	23;"	d
+SET_FLASH_SUCCESS	src/xunit/xunit_lib.h	38;"	d
+SET_FOCUS_MODE	src/xunit/xunit_lib.h	18;"	d
+SET_FOCUS_POSITION	src/xunit/xunit_lib.h	20;"	d
+SINGLE_TRIG_FOCUS	src/xunit/xunit_lib.h	27;"	d
+SOURCE_EXTENSIONS	.ycm_extra_conf.py	/^SOURCE_EXTENSIONS = ['.cpp', '.cxx', '.cc', '.c', '.m', '.mm']$/;"	v
+SUCCESS	src/xunit/xunit_lib.h	52;"	d
+StereoCamera	include/uvc_camera/stereocamera.h	/^class StereoCamera {$/;"	c	namespace:uvc_camera
+StereoCamera	src/stereo.cpp	/^StereoCamera::StereoCamera(ros::NodeHandle comm_nh, ros::NodeHandle param_nh) :$/;"	f	class:uvc_camera::StereoCamera
+StereoNodelet	src/nodelets.cpp	/^    StereoNodelet() {}$/;"	f	class:uvc_camera::StereoNodelet
+StereoNodelet	src/nodelets.cpp	/^class StereoNodelet : public nodelet::Nodelet {$/;"	c	namespace:uvc_camera	file:
+TIMEOUT	src/xunit/xunit_lib.h	50;"	d
+TRUE	src/xunit/xunit_lib.h	8;"	d
+UINT16	src/xunit/xunit_tab_lib.h	/^typedef unsigned short int UINT16;$/;"	t
+UINT8	src/xunit/xunit_tab_lib.h	/^typedef unsigned char UINT8;$/;"	t
+UVC_CAM_H	include/uvc_cam/uvc_cam.h	23;"	d
+UVC_CTRL_DATA_TYPE_BITMASK	include/uvc_cam/uvc_cam.h	/^  CSU32 UVC_CTRL_DATA_TYPE_BITMASK = 5;$/;"	m	class:uvc_cam::Cam
+UVC_CTRL_DATA_TYPE_BOOLEAN	include/uvc_cam/uvc_cam.h	/^  CSU32 UVC_CTRL_DATA_TYPE_BOOLEAN = 3;$/;"	m	class:uvc_cam::Cam
+UVC_CTRL_DATA_TYPE_ENUM	include/uvc_cam/uvc_cam.h	/^  CSU32 UVC_CTRL_DATA_TYPE_ENUM = 4;$/;"	m	class:uvc_cam::Cam
+UVC_CTRL_DATA_TYPE_RAW	include/uvc_cam/uvc_cam.h	/^  CSU32 UVC_CTRL_DATA_TYPE_RAW = 0;$/;"	m	class:uvc_cam::Cam
+UVC_CTRL_DATA_TYPE_SIGNED	include/uvc_cam/uvc_cam.h	/^  CSU32 UVC_CTRL_DATA_TYPE_SIGNED	= 1;$/;"	m	class:uvc_cam::Cam
+UVC_CTRL_DATA_TYPE_UNSIGNED	include/uvc_cam/uvc_cam.h	/^  CSU32 UVC_CTRL_DATA_TYPE_UNSIGNED	= 2;$/;"	m	class:uvc_cam::Cam
+UninitExtensionUnit	src/xunit/xunit_lib.c	/^BOOL UninitExtensionUnit()$/;"	f
+V4L2_CID_BACKLIGHT_COMPENSATION_NEW	include/uvc_cam/uvc_cam.h	/^  CSU32 V4L2_CID_BACKLIGHT_COMPENSATION_NEW = V4L2_CID_BASE_NEW + 28;$/;"	m	class:uvc_cam::Cam
+V4L2_CID_BACKLIGHT_COMPENSATION_OLD	include/uvc_cam/uvc_cam.h	/^  CSU32 V4L2_CID_BACKLIGHT_COMPENSATION_OLD = V4L2_CID_PRIVATE_BASE_OLD + 0;$/;"	m	class:uvc_cam::Cam
+V4L2_CID_BASE_EXTCTR	include/uvc_cam/uvc_cam.h	/^  CSU32 V4L2_CID_BASE_EXTCTR = 0x0A046D01;$/;"	m	class:uvc_cam::Cam
+V4L2_CID_BASE_LOGITECH	include/uvc_cam/uvc_cam.h	/^  CSU32 V4L2_CID_BASE_LOGITECH = V4L2_CID_BASE_EXTCTR;$/;"	m	class:uvc_cam::Cam
+V4L2_CID_BASE_NEW	include/uvc_cam/uvc_cam.h	/^  CSU32 V4L2_CID_BASE_NEW = V4L2_CTRL_CLASS_USER_NEW | 0x900;$/;"	m	class:uvc_cam::Cam
+V4L2_CID_CAMERA_CLASS_BASE_NEW	include/uvc_cam/uvc_cam.h	/^  CSU32 V4L2_CID_CAMERA_CLASS_BASE_NEW = V4L2_CTRL_CLASS_CAMERA_NEW | 0x900;$/;"	m	class:uvc_cam::Cam
+V4L2_CID_CAMERA_CLASS_LAST	include/uvc_cam/uvc_cam.h	/^  CSU32 V4L2_CID_CAMERA_CLASS_LAST = V4L2_CID_CAMERA_CLASS_BASE_NEW + 13;$/;"	m	class:uvc_cam::Cam
+V4L2_CID_DISABLE_PROCESSING_LOGITECH	include/uvc_cam/uvc_cam.h	/^  CSU32 V4L2_CID_DISABLE_PROCESSING_LOGITECH = V4L2_CID_BASE_LOGITECH + 0x70;$/;"	m	class:uvc_cam::Cam
+V4L2_CID_EXPOSURE_ABSOLUTE_NEW	include/uvc_cam/uvc_cam.h	/^  CSU32 V4L2_CID_EXPOSURE_ABSOLUTE_NEW = V4L2_CID_CAMERA_CLASS_BASE_NEW + 2;$/;"	m	class:uvc_cam::Cam
+V4L2_CID_EXPOSURE_ABSOLUTE_OLD	include/uvc_cam/uvc_cam.h	/^  CSU32 V4L2_CID_EXPOSURE_ABSOLUTE_OLD = V4L2_CID_PRIVATE_BASE_OLD + 11;$/;"	m	class:uvc_cam::Cam
+V4L2_CID_EXPOSURE_AUTO_NEW	include/uvc_cam/uvc_cam.h	/^  CSU32 V4L2_CID_EXPOSURE_AUTO_NEW = V4L2_CID_CAMERA_CLASS_BASE_NEW + 1;$/;"	m	class:uvc_cam::Cam
+V4L2_CID_EXPOSURE_AUTO_OLD	include/uvc_cam/uvc_cam.h	/^  CSU32 V4L2_CID_EXPOSURE_AUTO_OLD = V4L2_CID_PRIVATE_BASE_OLD + 10;$/;"	m	class:uvc_cam::Cam
+V4L2_CID_EXPOSURE_AUTO_PRIORITY_NEW	include/uvc_cam/uvc_cam.h	/^  CSU32 V4L2_CID_EXPOSURE_AUTO_PRIORITY_NEW = V4L2_CID_CAMERA_CLASS_BASE_NEW+3;$/;"	m	class:uvc_cam::Cam
+V4L2_CID_FOCUS_ABSOLUTE_NEW	include/uvc_cam/uvc_cam.h	/^  CSU32 V4L2_CID_FOCUS_ABSOLUTE_NEW = V4L2_CID_CAMERA_CLASS_BASE_NEW + 10;$/;"	m	class:uvc_cam::Cam
+V4L2_CID_FOCUS_ABSOLUTE_OLD	include/uvc_cam/uvc_cam.h	/^  CSU32 V4L2_CID_FOCUS_ABSOLUTE_OLD = V4L2_CID_PRIVATE_BASE_OLD + 5;$/;"	m	class:uvc_cam::Cam
+V4L2_CID_FOCUS_AUTO_NEW	include/uvc_cam/uvc_cam.h	/^  CSU32 V4L2_CID_FOCUS_AUTO_NEW = V4L2_CID_CAMERA_CLASS_BASE_NEW + 12;$/;"	m	class:uvc_cam::Cam
+V4L2_CID_FOCUS_AUTO_OLD	include/uvc_cam/uvc_cam.h	/^  CSU32 V4L2_CID_FOCUS_AUTO_OLD = V4L2_CID_PRIVATE_BASE_OLD + 4;$/;"	m	class:uvc_cam::Cam
+V4L2_CID_FOCUS_LOGITECH	include/uvc_cam/uvc_cam.h	/^  CSU32 V4L2_CID_FOCUS_LOGITECH = V4L2_CID_BASE_LOGITECH + 3;$/;"	m	class:uvc_cam::Cam
+V4L2_CID_FOCUS_RELATIVE_NEW	include/uvc_cam/uvc_cam.h	/^  CSU32 V4L2_CID_FOCUS_RELATIVE_NEW = V4L2_CID_CAMERA_CLASS_BASE_NEW + 11;$/;"	m	class:uvc_cam::Cam
+V4L2_CID_FOCUS_RELATIVE_OLD	include/uvc_cam/uvc_cam.h	/^  CSU32 V4L2_CID_FOCUS_RELATIVE_OLD = V4L2_CID_PRIVATE_BASE_OLD + 6;$/;"	m	class:uvc_cam::Cam
+V4L2_CID_HUE_AUTO_NEW	include/uvc_cam/uvc_cam.h	/^  CSU32 V4L2_CID_HUE_AUTO_NEW = V4L2_CID_BASE_NEW + 25;$/;"	m	class:uvc_cam::Cam
+V4L2_CID_HUE_AUTO_OLD	include/uvc_cam/uvc_cam.h	/^  CSU32 V4L2_CID_HUE_AUTO_OLD = V4L2_CID_PRIVATE_BASE_OLD + 3;$/;"	m	class:uvc_cam::Cam
+V4L2_CID_LAST_EXTCTR	include/uvc_cam/uvc_cam.h	/^  CSU32 V4L2_CID_LAST_EXTCTR = V4L2_CID_RAW_BITS_PER_PIXEL_LOGITECH;$/;"	m	class:uvc_cam::Cam
+V4L2_CID_LAST_NEW	include/uvc_cam/uvc_cam.h	/^  CSU32 V4L2_CID_LAST_NEW = V4L2_CID_BASE_NEW + 29;$/;"	m	class:uvc_cam::Cam
+V4L2_CID_LED1_FREQUENCY_LOGITECH	include/uvc_cam/uvc_cam.h	/^  CSU32 V4L2_CID_LED1_FREQUENCY_LOGITECH = V4L2_CID_BASE_LOGITECH + 5;$/;"	m	class:uvc_cam::Cam
+V4L2_CID_LED1_MODE_LOGITECH	include/uvc_cam/uvc_cam.h	/^  CSU32 V4L2_CID_LED1_MODE_LOGITECH = V4L2_CID_BASE_LOGITECH + 4;$/;"	m	class:uvc_cam::Cam
+V4L2_CID_PANTILT_RESET_LOGITECH	include/uvc_cam/uvc_cam.h	/^  CSU32 V4L2_CID_PANTILT_RESET_LOGITECH = V4L2_CID_BASE_LOGITECH + 2;$/;"	m	class:uvc_cam::Cam
+V4L2_CID_PANTILT_RESET_OLD	include/uvc_cam/uvc_cam.h	/^  CSU32 V4L2_CID_PANTILT_RESET_OLD = V4L2_CID_PRIVATE_BASE_OLD + 9;$/;"	m	class:uvc_cam::Cam
+V4L2_CID_PAN_ABSOLUTE_NEW	include/uvc_cam/uvc_cam.h	/^  CSU32 V4L2_CID_PAN_ABSOLUTE_NEW = V4L2_CID_CAMERA_CLASS_BASE_NEW + 8;$/;"	m	class:uvc_cam::Cam
+V4L2_CID_PAN_RELATIVE_NEW	include/uvc_cam/uvc_cam.h	/^  CSU32 V4L2_CID_PAN_RELATIVE_NEW = V4L2_CID_CAMERA_CLASS_BASE_NEW + 4;$/;"	m	class:uvc_cam::Cam
+V4L2_CID_PAN_RELATIVE_OLD	include/uvc_cam/uvc_cam.h	/^  CSU32 V4L2_CID_PAN_RELATIVE_OLD = V4L2_CID_PRIVATE_BASE_OLD + 7;$/;"	m	class:uvc_cam::Cam
+V4L2_CID_PAN_RESET_NEW	include/uvc_cam/uvc_cam.h	/^  CSU32 V4L2_CID_PAN_RESET_NEW = V4L2_CID_CAMERA_CLASS_BASE_NEW + 6;$/;"	m	class:uvc_cam::Cam
+V4L2_CID_POWER_LINE_FREQUENCY_NEW	include/uvc_cam/uvc_cam.h	/^  CSU32 V4L2_CID_POWER_LINE_FREQUENCY_NEW = V4L2_CID_BASE_NEW + 24;$/;"	m	class:uvc_cam::Cam
+V4L2_CID_POWER_LINE_FREQUENCY_OLD	include/uvc_cam/uvc_cam.h	/^  CSU32 V4L2_CID_POWER_LINE_FREQUENCY_OLD = V4L2_CID_PRIVATE_BASE_OLD + 1;$/;"	m	class:uvc_cam::Cam
+V4L2_CID_PRIVATE_BASE_OLD	include/uvc_cam/uvc_cam.h	/^  CSU32 V4L2_CID_PRIVATE_BASE_OLD = 0x08000000;$/;"	m	class:uvc_cam::Cam
+V4L2_CID_PRIVATE_LAST	include/uvc_cam/uvc_cam.h	/^  CSU32 V4L2_CID_PRIVATE_LAST = V4L2_CID_WHITE_BALANCE_TEMP_OLD + 1;$/;"	m	class:uvc_cam::Cam
+V4L2_CID_RAW_BITS_PER_PIXEL_LOGITECH	include/uvc_cam/uvc_cam.h	/^  CSU32 V4L2_CID_RAW_BITS_PER_PIXEL_LOGITECH = V4L2_CID_BASE_LOGITECH + 0x71;$/;"	m	class:uvc_cam::Cam
+V4L2_CID_SHARPNESS_NEW	include/uvc_cam/uvc_cam.h	/^  CSU32 V4L2_CID_SHARPNESS_NEW = V4L2_CID_BASE_NEW + 27;$/;"	m	class:uvc_cam::Cam
+V4L2_CID_SHARPNESS_OLD	include/uvc_cam/uvc_cam.h	/^  CSU32 V4L2_CID_SHARPNESS_OLD = V4L2_CID_PRIVATE_BASE_OLD + 2;$/;"	m	class:uvc_cam::Cam
+V4L2_CID_TILT_ABSOLUTE_NEW	include/uvc_cam/uvc_cam.h	/^  CSU32 V4L2_CID_TILT_ABSOLUTE_NEW = V4L2_CID_CAMERA_CLASS_BASE_NEW + 9;$/;"	m	class:uvc_cam::Cam
+V4L2_CID_TILT_RELATIVE_NEW	include/uvc_cam/uvc_cam.h	/^  CSU32 V4L2_CID_TILT_RELATIVE_NEW = V4L2_CID_CAMERA_CLASS_BASE_NEW + 5;$/;"	m	class:uvc_cam::Cam
+V4L2_CID_TILT_RELATIVE_OLD	include/uvc_cam/uvc_cam.h	/^  CSU32 V4L2_CID_TILT_RELATIVE_OLD = V4L2_CID_PRIVATE_BASE_OLD + 8;$/;"	m	class:uvc_cam::Cam
+V4L2_CID_TILT_RESET_NEW	include/uvc_cam/uvc_cam.h	/^  CSU32 V4L2_CID_TILT_RESET_NEW	= V4L2_CID_CAMERA_CLASS_BASE_NEW + 7;$/;"	m	class:uvc_cam::Cam
+V4L2_CID_WHITE_BALANCE_TEMPERATURE_NEW	include/uvc_cam/uvc_cam.h	/^  CSU32 V4L2_CID_WHITE_BALANCE_TEMPERATURE_NEW = V4L2_CID_BASE_NEW + 26;$/;"	m	class:uvc_cam::Cam
+V4L2_CID_WHITE_BALANCE_TEMP_AUTO_OLD	include/uvc_cam/uvc_cam.h	/^  CSU32 V4L2_CID_WHITE_BALANCE_TEMP_AUTO_OLD	= V4L2_CID_PRIVATE_BASE_OLD+12;$/;"	m	class:uvc_cam::Cam
+V4L2_CID_WHITE_BALANCE_TEMP_OLD	include/uvc_cam/uvc_cam.h	/^  CSU32 V4L2_CID_WHITE_BALANCE_TEMP_OLD = V4L2_CID_PRIVATE_BASE_OLD + 13;$/;"	m	class:uvc_cam::Cam
+V4L2_CTRL_CLASS_CAMERA_NEW	include/uvc_cam/uvc_cam.h	/^  CSU32 V4L2_CTRL_CLASS_CAMERA_NEW = 0x009A0000;	\/* Camera class controls *\/$/;"	m	class:uvc_cam::Cam
+V4L2_CTRL_CLASS_USER_NEW	include/uvc_cam/uvc_cam.h	/^  CSU32 V4L2_CTRL_CLASS_USER_NEW = 0x00980000;$/;"	m	class:uvc_cam::Cam
+V4L2_UVC_EXPOSURE_APERTURE_PRIORITY	include/uvc_cam/uvc_cam.h	/^	V4L2_UVC_EXPOSURE_APERTURE_PRIORITY = 8$/;"	e	enum:uvc_cam::v4l2_uvc_exposure_auto_type
+V4L2_UVC_EXPOSURE_AUTO	include/uvc_cam/uvc_cam.h	/^	V4L2_UVC_EXPOSURE_AUTO = 2,$/;"	e	enum:uvc_cam::v4l2_uvc_exposure_auto_type
+V4L2_UVC_EXPOSURE_MANUAL	include/uvc_cam/uvc_cam.h	/^	V4L2_UVC_EXPOSURE_MANUAL = 1,$/;"	e	enum:uvc_cam::v4l2_uvc_exposure_auto_type
+V4L2_UVC_EXPOSURE_SHUTTER_PRIORITY	include/uvc_cam/uvc_cam.h	/^	V4L2_UVC_EXPOSURE_SHUTTER_PRIORITY = 4,$/;"	e	enum:uvc_cam::v4l2_uvc_exposure_auto_type
+XUNIT_LIB_H	src/xunit/xunit_lib.h	2;"	d
+XUNIT_TAB_LIB_H	src/xunit/xunit_tab_lib.h	2;"	d
+buffer_	include/uvc_cam/uvc_cam.h	/^  v4l2_buffer buffer_;$/;"	m	class:uvc_cam::Cam
+buffer_length_	include/uvc_cam/uvc_cam.h	/^  unsigned buffer_length_;$/;"	m	class:uvc_cam::Cam
+buffer_mem_	include/uvc_cam/uvc_cam.h	/^  void *buffer_mem_[NUM_BUFFERS];$/;"	m	class:uvc_cam::Cam
+bus_str	src/xunit/xunit_lib.c	/^const char *bus_str(int bus)$/;"	f
+calDir	config/save_cal.py	/^calDir = os.path.abspath(os.path.join(calPath, os.pardir))$/;"	v
+calParentDir	config/save_cal.py	/^calParentDir = os.path.abspath(os.path.join(calPath, os.pardir))$/;"	v
+calPath	config/save_cal.py	/^calPath = os.path.join(curWorkingDir,packed_cal)$/;"	v
+callBackExposureLeft	src/stereo.cpp	/^void StereoCamera::callBackExposureLeft (std_msgs::Float64 call_exposure_msg)$/;"	f	class:uvc_camera::StereoCamera
+callBackExposureRight	src/stereo.cpp	/^void StereoCamera::callBackExposureRight (std_msgs::Float64 call_exposure_msg)$/;"	f	class:uvc_camera::StereoCamera
+cam	include/uvc_camera/camera.h	/^    uvc_cam::Cam *cam;$/;"	m	class:uvc_camera::Camera
+cam_left	include/uvc_camera/stereocamera.h	/^    uvc_cam::Cam *cam_left, *cam_right;$/;"	m	class:uvc_camera::StereoCamera
+cam_right	include/uvc_camera/stereocamera.h	/^    uvc_cam::Cam *cam_left, *cam_right;$/;"	m	class:uvc_camera::StereoCamera
+camera	config/save_cal.py	/^camera = str(os.path.split(calParentDir)[1])$/;"	v
+camera	src/nodelets.cpp	/^    Camera *camera;$/;"	m	class:uvc_camera::CameraNodelet	file:
+capability_	include/uvc_cam/uvc_cam.h	/^  v4l2_capability capability_;$/;"	m	class:uvc_cam::Cam
+curWorkingDir	config/save_cal.py	/^curWorkingDir = os.path.abspath(os.getcwd())$/;"	v
+default_flags	.ycm_extra_conf.py	/^default_flags = [$/;"	v
+device	include/uvc_camera/camera.h	/^    std::string device, frame;$/;"	m	class:uvc_camera::Camera
+device_	include/uvc_cam/uvc_cam.h	/^  std::string device_;$/;"	m	class:uvc_cam::Cam
+device_file_h_	include/uvc_cam/uvc_cam.h	/^  int device_file_h_;$/;"	m	class:uvc_cam::Cam
+enumerate	src/uvc_cam.cpp	/^void Cam::enumerate()$/;"	f	class:Cam
+enumerate_menu	src/uvc_cam.cpp	/^enumerate_menu (int device_file_h_,$/;"	f	file:
+exp_vals	include/uvc_cam/uvc_cam.h	/^static const int exp_vals[]=$/;"	m	namespace:uvc_cam
+exposure_left_sub	include/uvc_camera/stereocamera.h	/^    ros::Subscriber exposure_left_sub;$/;"	m	class:uvc_camera::StereoCamera
+exposure_pub	include/uvc_camera/camera.h	/^    ros::Publisher exposure_pub;$/;"	m	class:uvc_camera::Camera
+feedImages	src/camera.cpp	/^    void Camera::feedImages() {$/;"	f	class:uvc_camera::Camera
+feedImages	src/stereo.cpp	/^void StereoCamera::feedImages() {$/;"	f	class:uvc_camera::StereoCamera
+find_hid_device	src/xunit/xunit_lib.c	/^int find_hid_device(const char* physical_location)$/;"	f
+flags	.ycm_extra_conf.py	/^flags = default_flags + GetRosIncludeFlags()$/;"	v
+format_	include/uvc_cam/uvc_cam.h	/^  v4l2_format format_;$/;"	m	class:uvc_cam::Cam
+fps	include/uvc_camera/camera.h	/^    int width, height, fps, skip_frames, frames_to_skip;$/;"	m	class:uvc_camera::Camera
+fps	include/uvc_camera/stereocamera.h	/^    int width, height, fps, skip_frames, frames_to_skip;$/;"	m	class:uvc_camera::StereoCamera
+fps_	include/uvc_cam/uvc_cam.h	/^  unsigned width_, height_, fps_;$/;"	m	class:uvc_cam::Cam
+frame	include/uvc_camera/camera.h	/^    std::string device, frame;$/;"	m	class:uvc_camera::Camera
+frame	include/uvc_camera/stereocamera.h	/^    std::string left_device, right_device, frame;$/;"	m	class:uvc_camera::StereoCamera
+frames_to_skip	include/uvc_camera/camera.h	/^    int width, height, fps, skip_frames, frames_to_skip;$/;"	m	class:uvc_camera::Camera
+frames_to_skip	include/uvc_camera/stereocamera.h	/^    int width, height, fps, skip_frames, frames_to_skip;$/;"	m	class:uvc_camera::StereoCamera
+g_flash_flag	src/xunit/xunit_tab_lib.h	/^BOOL g_flash_flag;$/;"	v
+g_in_packet_buf	src/xunit/xunit_lib.h	/^unsigned char g_in_packet_buf[BUFFER_LENGTH];$/;"	v
+g_out_packet_buf	src/xunit/xunit_lib.h	/^unsigned char g_out_packet_buf[BUFFER_LENGTH];$/;"	v
+grab	src/uvc_cam.cpp	/^int Cam::grab(unsigned char **frame, uint32_t &bytes_used)$/;"	f	class:Cam
+height	include/uvc_camera/camera.h	/^    int width, height, fps, skip_frames, frames_to_skip;$/;"	m	class:uvc_camera::Camera
+height	include/uvc_camera/stereocamera.h	/^    int width, height, fps, skip_frames, frames_to_skip;$/;"	m	class:uvc_camera::StereoCamera
+height_	include/uvc_cam/uvc_cam.h	/^  unsigned width_, height_, fps_;$/;"	m	class:uvc_cam::Cam
+hid_device	src/xunit/xunit_lib.h	/^const char	*hid_device;$/;"	v
+hid_fd	src/xunit/xunit_lib.c	/^int hid_fd = -1;$/;"	v
+image_thread	include/uvc_camera/camera.h	/^    boost::thread image_thread;$/;"	m	class:uvc_camera::Camera
+image_thread	include/uvc_camera/stereocamera.h	/^    boost::thread image_thread;$/;"	m	class:uvc_camera::StereoCamera
+info_mgr	include/uvc_camera/camera.h	/^    camera_info_manager::CameraInfoManager info_mgr;$/;"	m	class:uvc_camera::Camera
+info_pub	include/uvc_camera/camera.h	/^    ros::Publisher info_pub;$/;"	m	class:uvc_camera::Camera
+it	include/uvc_camera/camera.h	/^    image_transport::ImageTransport it;$/;"	m	class:uvc_camera::Camera
+it	include/uvc_camera/stereocamera.h	/^    image_transport::ImageTransport it;$/;"	m	class:uvc_camera::StereoCamera
+last_time	include/uvc_camera/camera.h	/^    ros::Time last_time;$/;"	m	class:uvc_camera::Camera
+last_yuv_frame_	include/uvc_cam/uvc_cam.h	/^  unsigned char *last_yuv_frame_;$/;"	m	class:uvc_cam::Cam
+leftPath	config/save_cal.py	/^leftPath = os.path.join(calDir,"left.yaml")$/;"	v
+left_device	include/uvc_camera/stereocamera.h	/^    std::string left_device, right_device, frame;$/;"	m	class:uvc_camera::StereoCamera
+left_info_mgr	include/uvc_camera/stereocamera.h	/^    camera_info_manager::CameraInfoManager left_info_mgr, right_info_mgr;$/;"	m	class:uvc_camera::StereoCamera
+left_info_pub	include/uvc_camera/stereocamera.h	/^    ros::Publisher left_info_pub, right_info_pub;$/;"	m	class:uvc_camera::StereoCamera
+left_pub	include/uvc_camera/stereocamera.h	/^    image_transport::Publisher left_pub, right_pub;$/;"	m	class:uvc_camera::StereoCamera
+main	src/camera_node.cpp	/^int main (int argc, char **argv) {$/;"	f
+main	src/stereo_node.cpp	/^int main (int argc, char **argv) {$/;"	f
+mode_	include/uvc_cam/uvc_cam.h	/^  enum mode_t { MODE_RGB, MODE_MJPG, MODE_YUYV, MODE_BAYER, MODE_Y16} mode_;$/;"	m	class:uvc_cam::Cam	typeref:enum:uvc_cam::Cam::mode_t
+mode_t	include/uvc_cam/uvc_cam.h	/^  enum mode_t { MODE_RGB, MODE_MJPG, MODE_YUYV, MODE_BAYER, MODE_Y16} mode_;$/;"	g	class:uvc_cam::Cam
+motion_threshold_count	include/uvc_cam/uvc_cam.h	/^  int motion_threshold_count;$/;"	m	class:uvc_cam::Cam
+motion_threshold_luminance_	include/uvc_cam/uvc_cam.h	/^  int motion_threshold_luminance_;$/;"	m	class:uvc_cam::Cam
+node	include/uvc_camera/camera.h	/^    ros::NodeHandle node, pnode;$/;"	m	class:uvc_camera::Camera
+node	include/uvc_camera/stereocamera.h	/^    ros::NodeHandle node, pnode;$/;"	m	class:uvc_camera::StereoCamera
+ok	include/uvc_camera/camera.h	/^    bool ok;$/;"	m	class:uvc_camera::Camera
+ok	include/uvc_camera/stereocamera.h	/^    bool ok;$/;"	m	class:uvc_camera::StereoCamera
+onInit	src/nodelets.cpp	/^    void onInit() {$/;"	f	class:uvc_camera::CameraNodelet
+onInit	src/nodelets.cpp	/^    void onInit() {$/;"	f	class:uvc_camera::StereoNodelet
+packed_cal	config/save_cal.py	/^packed_cal = str(sys.argv[1])$/;"	v
+pnode	include/uvc_camera/camera.h	/^    ros::NodeHandle node, pnode;$/;"	m	class:uvc_camera::Camera
+pnode	include/uvc_camera/stereocamera.h	/^    ros::NodeHandle node, pnode;$/;"	m	class:uvc_camera::StereoCamera
+pub	include/uvc_camera/camera.h	/^    image_transport::Publisher pub;$/;"	m	class:uvc_camera::Camera
+release	src/uvc_cam.cpp	/^void Cam::release(unsigned buf_idx)$/;"	f	class:Cam
+request_buffers_	include/uvc_cam/uvc_cam.h	/^  v4l2_requestbuffers request_buffers_;$/;"	m	class:uvc_cam::Cam
+rgb_frame_	include/uvc_cam/uvc_cam.h	/^  unsigned char *rgb_frame_;$/;"	m	class:uvc_cam::Cam
+rightPath	config/save_cal.py	/^rightPath = os.path.join(calDir,"right.yaml")$/;"	v
+right_device	include/uvc_camera/stereocamera.h	/^    std::string left_device, right_device, frame;$/;"	m	class:uvc_camera::StereoCamera
+right_info_mgr	include/uvc_camera/stereocamera.h	/^    camera_info_manager::CameraInfoManager left_info_mgr, right_info_mgr;$/;"	m	class:uvc_camera::StereoCamera
+right_info_pub	include/uvc_camera/stereocamera.h	/^    ros::Publisher left_info_pub, right_info_pub;$/;"	m	class:uvc_camera::StereoCamera
+right_pub	include/uvc_camera/stereocamera.h	/^    image_transport::Publisher left_pub, right_pub;$/;"	m	class:uvc_camera::StereoCamera
+rotate	include/uvc_camera/camera.h	/^    bool rotate;$/;"	m	class:uvc_camera::Camera
+rotate	src/stereo.cpp	/^static inline void rotate(unsigned char *dst_chr, unsigned char *src_chr, int pixels) {$/;"	f	file:
+rotate_left	include/uvc_camera/stereocamera.h	/^    bool rotate_left, rotate_right;$/;"	m	class:uvc_camera::StereoCamera
+rotate_right	include/uvc_camera/stereocamera.h	/^    bool rotate_left, rotate_right;$/;"	m	class:uvc_camera::StereoCamera
+sat	src/uvc_cam.cpp	/^inline unsigned char sat(float f)$/;"	f
+see3cam_device_index	src/xunit/xunit_tab_lib.h	/^enum see3cam_device_index$/;"	g
+sendInfo	src/camera.cpp	/^    void Camera::sendInfo(ImagePtr &image, ros::Time time) {$/;"	f	class:uvc_camera::Camera
+sendInfo	src/stereo.cpp	/^void StereoCamera::sendInfo(ros::Time time) {$/;"	f	class:uvc_camera::StereoCamera
+set_control	src/uvc_cam.cpp	/^void Cam::set_control(uint32_t id, int val)$/;"	f	class:Cam
+set_motion_thresholds	src/uvc_cam.cpp	/^void Cam::set_motion_thresholds(int lum, int count)$/;"	f	class:Cam
+skip_frames	include/uvc_camera/camera.h	/^    int width, height, fps, skip_frames, frames_to_skip;$/;"	m	class:uvc_camera::Camera
+skip_frames	include/uvc_camera/stereocamera.h	/^    int width, height, fps, skip_frames, frames_to_skip;$/;"	m	class:uvc_camera::StereoCamera
+stereo	src/nodelets.cpp	/^    StereoCamera *stereo;$/;"	m	class:uvc_camera::StereoNodelet	file:
+stream_parm_	include/uvc_cam/uvc_cam.h	/^  v4l2_streamparm stream_parm_;$/;"	m	class:uvc_cam::Cam
+timeCb	src/camera.cpp	/^    void Camera::timeCb(std_msgs::Time time)$/;"	f	class:uvc_camera::Camera
+time_code_	include/uvc_cam/uvc_cam.h	/^  v4l2_timecode time_code_;$/;"	m	class:uvc_cam::Cam
+time_mutex_	include/uvc_camera/camera.h	/^    boost::mutex time_mutex_;$/;"	m	class:uvc_camera::Camera
+time_sub	include/uvc_camera/camera.h	/^    ros::Subscriber time_sub;$/;"	m	class:uvc_camera::Camera
+uvc_cam	include/uvc_cam/uvc_cam.h	/^namespace uvc_cam$/;"	n
+uvc_camera	include/uvc_camera/camera.h	/^namespace uvc_camera {$/;"	n
+uvc_camera	include/uvc_camera/stereocamera.h	/^namespace uvc_camera {$/;"	n
+uvc_camera	src/camera.cpp	/^namespace uvc_camera {$/;"	n	file:
+uvc_camera	src/nodelets.cpp	/^namespace uvc_camera {$/;"	n	file:
+uvc_camera	src/stereo.cpp	/^namespace uvc_camera {$/;"	n	file:
+v4l2_uvc_exposure_auto_type	include/uvc_cam/uvc_cam.h	/^enum v4l2_uvc_exposure_auto_type$/;"	g	namespace:uvc_cam
+width	include/uvc_camera/camera.h	/^    int width, height, fps, skip_frames, frames_to_skip;$/;"	m	class:uvc_camera::Camera
+width	include/uvc_camera/stereocamera.h	/^    int width, height, fps, skip_frames, frames_to_skip;$/;"	m	class:uvc_camera::StereoCamera
+width_	include/uvc_cam/uvc_cam.h	/^  unsigned width_, height_, fps_;$/;"	m	class:uvc_cam::Cam
+xioctl	src/uvc_cam.cpp	/^int xioctl(int fd, int IOCTL_X, void *arg)$/;"	f
+~Cam	src/uvc_cam.cpp	/^Cam::~Cam()$/;"	f	class:Cam
+~Camera	src/camera.cpp	/^    Camera::~Camera() {$/;"	f	class:uvc_camera::Camera
+~CameraNodelet	src/nodelets.cpp	/^    ~CameraNodelet() {$/;"	f	class:uvc_camera::CameraNodelet
+~StereoCamera	src/stereo.cpp	/^StereoCamera::~StereoCamera() {$/;"	f	class:uvc_camera::StereoCamera
+~StereoNodelet	src/nodelets.cpp	/^    ~StereoNodelet() {$/;"	f	class:uvc_camera::StereoNodelet

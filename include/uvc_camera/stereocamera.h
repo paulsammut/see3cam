@@ -62,6 +62,18 @@ class StereoCamera {
      * @param call_exposure_msg
      */
     void callBackExposureRight (std_msgs::Float64 call_exposure_msg);
+
+    /**
+     * @brief Left brightness subscriber
+     */
+    ros::Subscriber brightness_left_sub;
+
+    /**
+     * @brief Right brightness subscriber
+     */
+    ros::Subscriber brightness_right_sub;
+	void callBackBrightnessLeft (std_msgs::Float64 call_brightness_msg);
+	void callBackBrightnessRight (std_msgs::Float64 call_brightness_msg);
 };
 
 };
