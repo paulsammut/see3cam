@@ -10,6 +10,8 @@
 #include "camera_info_manager/camera_info_manager.h"
 #include "image_transport/image_transport.h"
 
+#include "std_msgs/Float64.h"
+
 namespace uvc_camera {
 
 class StereoCamera {
@@ -35,7 +37,26 @@ class StereoCamera {
     image_transport::Publisher left_pub, right_pub;
     ros::Publisher left_info_pub, right_info_pub;
 
+    /**
+     * @brief Left exposure subscriber
+     */
+    ros::Subscriber exposure_left_sub;
+
     boost::thread image_thread;
+
+    /**
+     * @brief Sets the exposure for the left camera
+     *
+     * @param call_exposure_msg
+     */
+    void callBackExposureLeft (std_msgs::Float64 call_exposure_msg);
+
+    /**
+     * @brief Sets the exposure for the right camera
+     *
+     * @param call_exposure_msg
+     */
+    void callBackExposureRight (std_msgs::Float64 call_exposure_msg);
 };
 
 };
