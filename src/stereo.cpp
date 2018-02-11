@@ -92,9 +92,6 @@ StereoCamera::StereoCamera(ros::NodeHandle comm_nh, ros::NodeHandle param_nh) :
     cam_right->set_motion_thresholds(100, -1);
 
     // These are stolen from the camera.cpp file. 
-    // cam->set_control(0x009a0901, 1); // exposure, auto (0 = auto, 1 = manual)
-    // cam->set_control(0x00980900, 6); // brightness
-    // cam->set_control(0x9a0902, 318); // 78 is 15.6 ms, these are fucking hardcoded.
     exposure_left_sub = node.subscribe ("set_exposure_left", 1, &StereoCamera::callBackExposureLeft, this);
     exposure_right_sub = node.subscribe ("set_exposure_right", 1, &StereoCamera::callBackExposureRight, this);
 
